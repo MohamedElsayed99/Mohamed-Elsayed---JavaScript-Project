@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Website Store</title>
+</head>
+
+<body onload="initializePage()">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Contact Us</a></li>
+                <li><a href="Cart.html">Cart<span id="cartCount" class="cart-count">0</span></a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search products">
+                <button>Search</button>
+            </div>
+            <div>
+                <button> <a href="login.html">Login</a></button>
+                <span>OR</span>
+                <button> <a href="login.html">Register</a></button>
+            </div>
+        </nav>
+    </header>
+
+    <h1>Welcome to Our Store</h1>
+    <h5>Explore our amazing products!</h5>
+
+    <div id="containerr">
+        <div class="slider" id="slider">
+            <div class="slides" id="slider-container">
+</div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+
+        <p id="p1">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, dolorem molestiae rem eligendi dignissimos dicta placeat saepe fugit laboriosam cum quaerat accusamus corporis suscipit quod voluptatibus architecto amet exercitationem consequuntur provident expedita non itaque deserunt impedit nostrum? Labore iure id ab possimus debitis molestiae aspernatur nisi beatae inventore, tenetur veritatis architecto eos perferendis atque, earum totam recusandae eaque facere aperiam iste fugit dignissimos voluptates laborum nemo. Tempora voluptate quo quis exercitationem voluptatibus ducimus consequuntur, a repellat facere possimus fugit quia repudiandae maiores! Odit itaque totam molestias veniam. Quia placeat perferendis eius, aperiam voluptas nobis, autem voluptates iusto sed cum praesentium.        </p>
+
+        <br><hr>
+        <h1>Fillter By Category</h1>
+
+        <div id="categoryButtons" class="container">
+            <!-- For buttons of catgory  -->
+        </div>
+            <hr>
+        <div id="content" class="container"></div>
+    </div>
+
+    <div class="cardtext-center">
+        <div class="card-body">
+            <p class="card-text"> Do not Hesitate to Contact Us on our Email : javascript@123.com .</p>
+            <button onclick="scrollToTop()">Back to Top</button>
+            <br><br><br>
+        </div>
+    </div>
+
+<script src="scripts.js"></script>
+</body>
+
+</html>
